@@ -1,0 +1,5 @@
+{
+  "env": {
+    "PREVIEW_TOKEN": "@environment-variable-name"
+  }
+}
