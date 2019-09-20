@@ -1,22 +1,28 @@
-import React from 'react'
-import Head from '../components/head'
-import Nav from '../components/nav'
+import React from "react";
+import Head from "../components/head";
+import Nav from "../components/nav";
+import StoryblokService from "../utils/storyblok-service";
 
 export default ({ children, settings = {} }) => (
   <div>
     <Head />
     <Nav settings={settings} />
-    <div className="util__container">
-      {children}
-    </div>
+    <div className="util__container">{children}</div>
 
     <style jsx global>{`
-      article, aside, footer, header, hgroup, main, nav, section {
+      article,
+      aside,
+      footer,
+      header,
+      hgroup,
+      main,
+      nav,
+      section {
         display: block;
       }
 
       body {
-        font-family: 'Zilla Slab', Helvetica, sans-serif;
+        font-family: "Zilla Slab", Helvetica, sans-serif;
         line-height: 1;
         font-size: 18px;
         color: #000;
@@ -55,5 +61,6 @@ export default ({ children, settings = {} }) => (
         height: 2px;
       }
     `}</style>
+    {StoryblokService.bridge()}
   </div>
-)
+);
