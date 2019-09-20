@@ -1,5 +1,7 @@
 {
-  "env": {
-    "PREVIEW_TOKEN": "@environment-variable-name"
+  "build": {
+    "env": {
+      "PREVIEW_TOKEN": "@environment-variable-name"
+    }
   }
 }
