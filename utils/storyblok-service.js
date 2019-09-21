@@ -1,4 +1,5 @@
 import StoryblokClient from "storyblok-js-client";
+import "dotenv/config";
 
 class StoryblokService {
   constructor() {
