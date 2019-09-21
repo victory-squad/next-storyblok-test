@@ -16,7 +16,7 @@ export default class extends React.Component {
 
     let [page, settings] = await Promise.all([
       StoryblokService.get("cdn/stories/home"),
-      StoryblokService.get("cdn/stories/en/settings")
+      StoryblokService.get("cdn/stories/settings")
     ]);
 
     return {
