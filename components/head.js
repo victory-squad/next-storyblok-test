@@ -13,6 +13,8 @@ const Head = ({ title, description }) => (
     <title>{title || ""}</title>
     <meta name="description" content={description || ""} />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="mask-icon" href="/static/favicon-mask.svg" color="#49B882" />
+    <link rel="icon" href="/static/favicon.ico" />
 
     <link
       rel="stylesheet"
