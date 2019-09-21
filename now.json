@@ -3,8 +3,5 @@
     "env": {
       "PREVIEW_TOKEN": "@preview_token"
     }
-  },
-  "env": {
-    "PREVIEW_TOKEN": "@preview_token"
   }
 }
