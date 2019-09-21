@@ -28,12 +28,12 @@ export default class extends React.Component {
         <nav className="top-header__col top-header__second-navi">
           <ul className="top-header__nav top-header__nav--right">
             <li>
-              <Link route="/en/blog">
+              <Link route="/">
                 <a className="top-header__link">English</a>
               </Link>
             </li>
             <li>
-              <Link route="/de/blog">
+              <Link route="/">
                 <a className="top-header__link">German</a>
               </Link>
             </li>
