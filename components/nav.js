@@ -92,7 +92,7 @@ export default class extends React.Component {
             padding-left: 20px;
           }
 
-          .top-header__link {
+          .top-header__link img {
             max-width: 63px;
             max-height: 30px;
           }
