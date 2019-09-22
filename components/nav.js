@@ -95,7 +95,7 @@ export default class extends React.Component {
           .top-header__link img {
             max-width: 63px;
             max-height: 30px;
-            border-radius: 25%;
+            border-radius: 5%;
           }
         `}</style>
       </header>
