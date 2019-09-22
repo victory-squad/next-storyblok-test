@@ -89,7 +89,7 @@ export default class extends React.Component {
 
           .top-header__nav--right li {
             padding-right: 0;
-            padding-left: 20px;
+            padding-left: 10px;
           }
 
           .top-header__link-img img {
