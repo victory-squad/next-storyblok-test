@@ -28,13 +28,25 @@ export default class extends React.Component {
         <nav className="top-header__col top-header__second-navi">
           <ul className="top-header__nav top-header__nav--right">
             <li>
-              <Link route="/">
-                <a className="top-header__link">English</a>
+              <Link>
+                <a
+                  href="https://postmates.com/"
+                  target="_blank"
+                  className="top-header__link top-header__logo"
+                >
+                  <img src="//a.storyblok.com/f/66375/330x124/347bb7f177/1_kxekjxklp6v1s77mm1g1xa.png" />
+                </a>
               </Link>
             </li>
             <li>
-              <Link route="/">
-                <a className="top-header__link">German</a>
+              <Link>
+                <a
+                  href="https://www.grubhub.com/"
+                  target="_blank"
+                  className="top-header__link top-header__logo"
+                >
+                  <img src="//a.storyblok.com/f/66375/330x124/af8c72cb4f/41_kxekjxklp6v1s77mm1g1xa.png" />
+                </a>
               </Link>
             </li>
           </ul>
