@@ -93,15 +93,8 @@ export default class extends React.Component {
           }
 
           .top-header__link {
-            line-height: 1.5;
-            color: #000;
-            text-decoration: none;
-            border-bottom: 2px solid transparent;
-            transition: border 0.15s ease;
-          }
-
-          .top-header__link:hover {
-            border-bottom: 2px solid #000;
+            max-width: 63px;
+            max-height: 30px;
           }
         `}</style>
       </header>
