@@ -97,6 +97,13 @@ export default class extends React.Component {
             max-height: 30px;
             border-radius: 5%;
           }
+
+          .top-header__link {
+            text-decoration: none;
+            color: white;
+            background: black;
+            padding: 0% 10%;
+          }
         `}</style>
       </header>
     );
