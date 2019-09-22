@@ -23,18 +23,30 @@ export default class extends React.Component {
           </ul>
         </nav>
         <a href="/" className="top-header__col top-header__logo">
-          <img src="//a.storyblok.com/f/42016/1096x313/0353bf6654/logo2.png" />
+          <img src="//a.storyblok.com/f/66375/683x683/5a4ded97b1/iconfinder_pizza_3883347.svg" />
         </a>
         <nav className="top-header__col top-header__second-navi">
           <ul className="top-header__nav top-header__nav--right">
             <li>
-              <Link route="/">
-                <a className="top-header__link">English</a>
+              <Link>
+                <a
+                  href="https://postmates.com/"
+                  target="_blank"
+                  className="top-header__link-img"
+                >
+                  <img src="//a.storyblok.com/f/66375/330x124/347bb7f177/1_kxekjxklp6v1s77mm1g1xa.png" />
+                </a>
               </Link>
             </li>
             <li>
-              <Link route="/">
-                <a className="top-header__link">German</a>
+              <Link>
+                <a
+                  href="https://www.grubhub.com/"
+                  target="_blank"
+                  className="top-header__link-img"
+                >
+                  <img src="//a.storyblok.com/f/66375/330x124/af8c72cb4f/41_kxekjxklp6v1s77mm1g1xa.png" />
+                </a>
               </Link>
             </li>
           </ul>
@@ -77,19 +89,20 @@ export default class extends React.Component {
 
           .top-header__nav--right li {
             padding-right: 0;
-            padding-left: 20px;
+            padding-left: 10px;
+          }
+
+          .top-header__link-img img {
+            max-width: 63px;
+            max-height: 30px;
+            border-radius: 5%;
           }
 
           .top-header__link {
-            line-height: 1.5;
-            color: #000;
             text-decoration: none;
-            border-bottom: 2px solid transparent;
-            transition: border 0.15s ease;
-          }
-
-          .top-header__link:hover {
-            border-bottom: 2px solid #000;
+            color: white;
+            background: black;
+            padding: 0% 10%;
           }
         `}</style>
       </header>

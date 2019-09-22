@@ -29,7 +29,7 @@ export default class extends React.Component {
             }
 
             .feature__icon {
-              max-width: 80px;
+              max-width: 40px;
             }
           `}</style>
         </div>
