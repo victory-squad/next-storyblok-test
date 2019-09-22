@@ -32,7 +32,7 @@ export default class extends React.Component {
                 <a
                   href="https://postmates.com/"
                   target="_blank"
-                  className="top-header__link"
+                  className="top-header__link-img"
                 >
                   <img src="//a.storyblok.com/f/66375/330x124/347bb7f177/1_kxekjxklp6v1s77mm1g1xa.png" />
                 </a>
@@ -43,7 +43,7 @@ export default class extends React.Component {
                 <a
                   href="https://www.grubhub.com/"
                   target="_blank"
-                  className="top-header__link"
+                  className="top-header__link-img"
                 >
                   <img src="//a.storyblok.com/f/66375/330x124/af8c72cb4f/41_kxekjxklp6v1s77mm1g1xa.png" />
                 </a>
@@ -92,13 +92,13 @@ export default class extends React.Component {
             padding-left: 20px;
           }
 
-          .top-header__link img {
+          .top-header__link-img {
             max-width: 63px;
             max-height: 30px;
             border-radius: 5%;
           }
 
-          .top-header__link a {
+          .top-header__link {
             text-decoration: none;
             color: white;
             background: black;
