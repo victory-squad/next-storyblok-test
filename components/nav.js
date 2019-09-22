@@ -23,7 +23,7 @@ export default class extends React.Component {
           </ul>
         </nav>
         <a href="/" className="top-header__col top-header__logo">
-          <img src="//a.storyblok.com/f/42016/1096x313/0353bf6654/logo2.png" />
+          <img src="//a.storyblok.com/f/66375/683x683/5a4ded97b1/iconfinder_pizza_3883347.svg" />
         </a>
         <nav className="top-header__col top-header__second-navi">
           <ul className="top-header__nav top-header__nav--right">
