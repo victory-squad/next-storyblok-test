@@ -98,7 +98,7 @@ export default class extends React.Component {
             border-radius: 5%;
           }
 
-          .top-header__link {
+          .top-header__link a {
             text-decoration: none;
             color: white;
             background: black;
